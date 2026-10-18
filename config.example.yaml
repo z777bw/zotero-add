@@ -1,0 +1,25 @@
+# Copy to ~/.zotero/config.yaml and fill in your own values.
+# Environment variables override anything here:
+#   ZOTERO_API_KEY / ZOTERO_USER_ID / ZOTERO_WEBDAV_PASSWORD
+
+# ---- Zotero Web API (required) ----
+# https://www.zotero.org/settings/keys
+# The key needs "Allow library access" + "Allow write access".
+api_key: XXXXXXXXXXXXXXXXXXXX
+user_id: 0000000
+
+# ---- Local Zotero installation (optional) ----
+# Auto-detected on Windows/macOS/Linux. Set explicitly if detection fails.
+# zotero_home: "C:\\Program Files\\Zotero"
+
+# ---- File storage backend (optional, auto-read from prefs.js) ----
+# "webdav" or "zotero". If "zotero" (official storage), cloud upload is skipped.
+# webdav_protocol: webdav
+# webdav_url: dav.jianguoyun.com/dav
+# webdav_user: you@example.com
+
+# ---- WebDAV password (optional) ----
+# By default decrypted on the fly from Zotero's logins.json (PK11SDR + nss3.dll).
+# Set this only if decryption is unavailable on your machine.
+# NOTE: plaintext — keep the file private (chmod 600).
+# webdav_password: your-app-password

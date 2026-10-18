@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local credentials — never commit these
+config.yaml
+*.local.yaml
+.env
+.env.*
+!config.example.yaml
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & scratch
+*.log
+tmp/
+.cache/
+backup-*/
